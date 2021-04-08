@@ -1,0 +1,14 @@
+<h2>DepartmentsController#index</h2>
+<%= link_to "add new Depatment", "/form" %>
+<%= link_to "add new Depatment (hard code)", "/hardCode" %>
+
+
+
+
+<% @departments.each do |dpm| %>
+  <p>
+    <%= dpm.department_name %>
+  </p>
+<% end %>
+
+
